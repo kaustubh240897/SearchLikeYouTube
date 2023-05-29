@@ -12,7 +12,7 @@ const SearchBar = () => {
   const cardRefs = useRef([]);
 
   useEffect(() => {
-    fetch('http://www.mocky.io/v2/5ba8efb23100007200c2750c')
+    fetch('https://www.mocky.io/v2/5ba8efb23100007200c2750c')
       .then((res) => res.json())
       .then((res) => {
         setData(res);
